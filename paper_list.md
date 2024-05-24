@@ -2,6 +2,10 @@
 
 ### Year 2024 
 
+* **PuTR: A Pure Transformer for Decoupled and Online Multi-Object Tracking**, Chongwei Liu, Haojie Li, Zhihui Wang, Rui Xu
+  [[Paper](https://arxiv.org/abs/2405.14119)]
+  [[Code](https://github.com/chongweiliu/PuTR)] 
+
 * [Rejected by ICLR 2024] **RGB-Event MOT: A Cross-Modal Benchmark for Multi-Object Tracking**. Zhu, Z., Hou, J., Wu, J., & Wu, D.
   [[Paper](https://openreview.net/pdf?id=Z1Em654CSE)]
 
