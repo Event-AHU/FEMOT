@@ -2,6 +2,14 @@
 
 ### Year 2024 
 
+
+* [arXiv:2406.05039] **Bootstrapping Referring Multi-Object Tracking**, Yani Zhang, Dongming Wu, Wencheng Han, Xingping Dong
+  [[Paper](https://arxiv.org/abs/2406.05039)]
+  [[Code](https://github.com/zyn213/TempRMOT)] 
+
+* [arXiv:2406.04844] **Multi-Granularity Language-Guided Multi-Object Tracking**, Yuhao Li, Muzammal Naseer, Jiale Cao, Yu Zhu, Jinqiu Sun, Yanning Zhang, Fahad Shahbaz Khan
+  [[Paper](https://arxiv.org/abs/2406.04844)] 
+
 * **PuTR: A Pure Transformer for Decoupled and Online Multi-Object Tracking**, Chongwei Liu, Haojie Li, Zhihui Wang, Rui Xu
   [[Paper](https://arxiv.org/abs/2405.14119)]
   [[Code](https://github.com/chongweiliu/PuTR)] 
