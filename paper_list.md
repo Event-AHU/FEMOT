@@ -3,6 +3,11 @@
 ### Year 2024 
 
 
+
+* [arXiv:2406.08324] **LaMOT: Language-Guided Multi-Object Tracking**, Yunhao Li, Xiaoqiong Liu, Luke Liu, Heng Fan, Libo Zhang
+  [[Paper](https://arxiv.org/abs/2406.08324)]
+  [[Code](https://github.com/Nathan-Li123/LaMOT)] 
+
 * [arXiv:2406.05039] **Bootstrapping Referring Multi-Object Tracking**, Yani Zhang, Dongming Wu, Wencheng Han, Xingping Dong
   [[Paper](https://arxiv.org/abs/2406.05039)]
   [[Code](https://github.com/zyn213/TempRMOT)] 
