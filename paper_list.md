@@ -3,16 +3,16 @@
 ### Year 2024 
 
 * [CVPR-2024] **ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association** 
-  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ding_ADA-Track_End-to-End_Multi-Camera_3D_Multi-Object_Tracking_with_Alternating_Detection_and_CVPR_2024_paper.pdf) 
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ding_ADA-Track_End-to-End_Multi-Camera_3D_Multi-Object_Tracking_with_Alternating_Detection_and_CVPR_2024_paper.pdf)]
 
 * [CVPR-2024] **Multi-Object Tracking in the Dark** 
-  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Multi-Object_Tracking_in_the_Dark_CVPR_2024_paper.pdf) 
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Multi-Object_Tracking_in_the_Dark_CVPR_2024_paper.pdf)]
 
 * [CVPR-2024] **Self-Supervised Multi-Object Tracking with Path Consistency** 
-  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Lu_Self-Supervised_Multi-Object_Tracking_with_Path_Consistency_CVPR_2024_paper.pdf) 
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Lu_Self-Supervised_Multi-Object_Tracking_with_Path_Consistency_CVPR_2024_paper.pdf)]
 
 * [CVPR-2024] **Towards Generalizable Multi-Object Tracking** 
-  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Qin_Towards_Generalizable_Multi-Object_Tracking_CVPR_2024_paper.pdf) 
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Qin_Towards_Generalizable_Multi-Object_Tracking_CVPR_2024_paper.pdf)]
 
 * [CVPR-2024] **DeconfuseTrack: Dealing with Confusion for Multi-Object Tracking**,
   [[Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_DeconfuseTrack_Dealing_with_Confusion_for_Multi-Object_Tracking_CVPR_2024_paper.pdf)]
