@@ -3,6 +3,10 @@
 ### Year 2024 
 
 
+* [ECCV 2024] **VETRA: A Dataset for Vehicle Tracking in Aerial Imagery – New Challenges for Multi-Object Tracking**,
+  [[Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11352.pdf)]
+  [[Code](https://www.dlr.de/en/eoc/vetra)]
+  
 * [arXiv:2407.14047] **OCTrack: Benchmarking the Open-Corpus Multi-Object Tracking**, Zekun Qian, Ruize Han, Wei Feng, Junhui Hou, Linqi Song, Song Wang [[Paper](https://arxiv.org/abs/2407.14047)] 
 
 * [CVPR-2024] **ADA-Track: End-to-End Multi-Camera 3D Multi-Object Tracking with Alternating Detection and Association** 
