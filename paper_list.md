@@ -1,5 +1,19 @@
 
 
+### Year 2025 
+
+* **OVTR: End-to-End Open-Vocabulary Multiple Object Tracking with Transformer**,
+  Jinyang Li, En Yu, Sijia Chen, Wenbing Tao 
+  [[Paper](https://arxiv.org/abs/2503.10616)]
+
+* 
+
+
+
+
+
+
+
 ### Year 2024 
 
 
