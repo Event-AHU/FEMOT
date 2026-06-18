@@ -27,6 +27,9 @@ Conventional RGB cameras have been widely used in multi-object tracking due to t
 The directory should have the following format:
 ```Shell
 ├── FEMOT_Dataset
+    ├── labels_with_ids
+    ├── annotations
+    ├── seqmaps
     ├── train (70 sequences)
         ├── dvSave-2024_06_03_19_25_56
             ├── dvSave-2024_06_03_19_25_56_aps
@@ -51,10 +54,6 @@ The directory should have the following format:
             ├── det
             ├── seqinfo.ini
         ├── ...
-
-   ├── labels_with_ids
-   ├── annotations
-   ├── seqmaps
 ```
 
 ### Citation 
