@@ -51,7 +51,7 @@ The directory should have the following format:
             ├── det
             ├── seqinfo.ini
         ├── ...
-├──
+
    ├── labels_with_ids
    ├── annotations
    ├── seqmaps
