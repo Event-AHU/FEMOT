@@ -25,7 +25,11 @@ Conventional RGB cameras have been widely used in multi-object tracking due to t
 * :fire: [2026.06.18] arXiv paper, dataset, and benchmark results are all released [[arXiv](https://arxiv.org/abs/2606.14094)]
 
 # :hammer: Environment 
-
+conda create -n FEMOT python=3.10
+conda activate FEMOT
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install matplotlib pyyaml scipy tqdm tensorboard
+pip install opencv-python
 
 # :dvd: FEMOT Dataset 
 
