@@ -88,7 +88,8 @@ The directory should have the following format:
   <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/Benchmark_result.jpg" alt="Benchmark_result" width="800"/>
 </p>
 
-
+# :cupid: Acknowledgement 
+* Thanks for the  [MeMOTR](https://github.com/MCG-NJU/MeMOTR), [Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR) for a quickly implement.
 
 ### Citation 
 If you find this work useful for your research, please give us a star and cite the following papers: 
