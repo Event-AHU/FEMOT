@@ -33,6 +33,15 @@ conda install matplotlib pyyaml scipy tqdm tensorboard
 pip install opencv-python
 ```
 
+## Train & Test
+```
+# train
+bash train.sh
+
+# test
+bash test.sh
+```
+
 # :dvd: FEMOT Dataset 
 
 <p align="center">
