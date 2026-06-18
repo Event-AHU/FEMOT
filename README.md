@@ -33,6 +33,9 @@ conda install matplotlib pyyaml scipy tqdm tensorboard
 pip install opencv-python
 ```
 
+Download pre-trained [Deformable_DETR](https://pan.baidu.com/s/1XqDY_D9QbvXTpnxHQzB0AQ?pwd=AHUE) and put it under the project homepage.
+Download the trained model weights from [[checkpoint_12.pth](https://pan.baidu.com/s/1Mr9kE0Qr5L-PUcxNgZ51WQ?pwd=AHUE)] and put it under `$/outputs/FEMOT/` for test directly. Please note that training must be run first to generate a configuration file before testing.
+
 ## Train & Test
 ```
 # train
@@ -91,7 +94,7 @@ The directory should have the following format:
 # :cupid: Acknowledgement 
 * Thanks for the  [MeMOTR](https://github.com/MCG-NJU/MeMOTR), [Deformable-DETR](https://github.com/fundamentalvision/Deformable-DETR) for a quickly implement.
 
-### Citation 
+# :newspaper: Citation 
 If you find this work useful for your research, please give us a star and cite the following papers: 
 
 ```
