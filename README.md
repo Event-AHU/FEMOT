@@ -4,7 +4,8 @@
 
 # RGB-Event-based Multi-Object Tracking 
 
-------
+</div>
+
 
 ## Works maintained in this GitHub 
 
