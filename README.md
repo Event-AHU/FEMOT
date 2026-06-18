@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/FEMOT_log.png" width="600">
 
-# RGB-Event-based Multi-Object Tracking 
+# RGB-Event based Multi-Object Tracking 
 
 </div>
 
