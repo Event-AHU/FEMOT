@@ -20,7 +20,7 @@ Conventional RGB cameras have been widely used in multi-object tracking due to t
 
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/First_Image.jpg" alt="First_Image" width="800"/>
+  <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/First_Image.jpg" alt="First_Image" width="900"/>
 </p>
 
   
