@@ -1,4 +1,4 @@
-# Event_Frame_Multi-Object Tracking 
+# RGB-Event-based Multi-Object Tracking 
 
 
 ## Works maintained in this GitHub 
