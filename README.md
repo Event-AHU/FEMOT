@@ -20,7 +20,7 @@ Conventional RGB cameras have been widely used in multi-object tracking due to t
 
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/First_Image.pdf" alt="First_Image" width="800"/>
+  <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/First_Image.jpg" alt="First_Image" width="800"/>
 </p>
 
   
@@ -33,7 +33,7 @@ Conventional RGB cameras have been widely used in multi-object tracking due to t
 # :dvd: FEMOT Dataset 
 
 <p align="center">
-  <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/DATASET_Attributes.pdf" alt="DATASET_Attributes" width="800"/>
+  <img src="https://github.com/Event-AHU/FEMOT/blob/main/pictures/DATASET_Attributes.jpg" alt="DATASET_Attributes" width="800"/>
 </p>
 
 :floppy_disk: **Baidu Netdisk**: [FEMOT_Dataset](https://pan.baidu.com/s/1subwHuu9sOOC2rjtufPJbw?pwd=AHUE)
