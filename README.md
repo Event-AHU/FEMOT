@@ -6,9 +6,6 @@
 
 </div>
 
-
-## Works maintained in this GitHub 
-
 * **FEMOT: Multi-Object Tracking using Frame and Event Cameras**,
   Shiao Wang, Xiao Wang, Chao Wang, Yitao Li, Menghao Liu, Bo Jiang, Yaowei Wang, Yonghong Tian, Jin Tang
   [[Paper](https://arxiv.org/abs/2606.14094)]
