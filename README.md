@@ -55,14 +55,14 @@ bash test.sh
 
 :floppy_disk: **Image version** (3.4GB)
 
-**Baidu Netdisk**: [Image_Dataset](https://pan.baidu.com/s/1subwHuu9sOOC2rjtufPJbw?pwd=AHUE)
+**Baidu Netdisk**: [FEMOT_Dataset_Image](https://pan.baidu.com/s/1subwHuu9sOOC2rjtufPJbw?pwd=AHUE)
 
-**Dropbox**: [Image_Dataset](https://www.dropbox.com/scl/fi/1zfsvgcgsleo1c77i4y1a/FEMOT_Dataset.zip?rlkey=84ttsbs4vdl88up9appruxtmo&st=xm3puylw&dl=0)
+**Dropbox**: [FEMOT_Dataset_Image](https://www.dropbox.com/scl/fi/1zfsvgcgsleo1c77i4y1a/FEMOT_Dataset.zip?rlkey=84ttsbs4vdl88up9appruxtmo&st=xm3puylw&dl=0)
 
 
 :floppy_disk: **Raw version** (train: 87.7GB, test: 24.8GB, val: 18.5GB)
 
-**Baidu Netdisk**: [Raw_Dataset](https://pan.baidu.com/s/10fp6SazphDQl6omdiAkvRQ?pwd=xm43)
+**Baidu Netdisk**: [FEMOT_Dataset_Raw](https://pan.baidu.com/s/10fp6SazphDQl6omdiAkvRQ?pwd=xm43)
 
 **Dropbox**: 
 
