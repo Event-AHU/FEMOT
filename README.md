@@ -60,11 +60,11 @@ bash test.sh
 **Dropbox**: [FEMOT_Dataset_Image](https://www.dropbox.com/scl/fi/1zfsvgcgsleo1c77i4y1a/FEMOT_Dataset.zip?rlkey=84ttsbs4vdl88up9appruxtmo&st=xm3puylw&dl=0)
 
 
-:floppy_disk: **Raw version** (train: 87.7GB, test: 24.8GB, val: 18.5GB)
+:floppy_disk: **Raw Event Stream version** (train: 87.7GB, test: 24.8GB, val: 18.5GB)
 
 **Baidu Netdisk**: [FEMOT_Dataset_Raw](https://pan.baidu.com/s/10fp6SazphDQl6omdiAkvRQ?pwd=xm43)
 
-**Dropbox**: 
+**Dropbox**: [[FEMOT_Dataset_Raw](https://www.dropbox.com/scl/fo/cpa4asrob253l94yvepjv/ABZGukp6chHd-maFsd7rJE8?rlkey=fao9qhzg0z52n8j7hks4h924o&st=qgv7vsi5&dl=0)]
 
 
 The directory should have the following format:
