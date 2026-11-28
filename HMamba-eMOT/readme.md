@@ -8,6 +8,8 @@ arXiv (To Be Updated)
 
 Multi-Object Tracking (MOT) is essential for autonomous driving and intelligent surveillance. State-of-the-art RGB trackers struggle under challenging conditions such as blur and overexposure, while event cameras provide complementary high dynamic range, asynchronous visual cues. However, effective RGB-event fusion and relational target association remain open problems. This paper proposes HMamba-eMOT, a two-stage multimodal MOT framework. We first introduce bidirectional Hypernetwork Linear Attention (HyLA) to dynamically generate modality-aware weights for adaptive cross-modal fusion before the YOLOX detection head. We further build a frame-level hypergraph to model spatial and appearance correlations across targets. Inspired by M³amba, we leverage the hypergraph prior to residually modulate the Δ and C matrices inside bidirectional Mamba, rather than simply concatenating hypergraph context with motion inputs. A two-stage association module outputs the final tracking results. Evaluations on DSEC-MOT and FEMOT demonstrate the effectiveness of our approach.
 
+![HMamba-eMOT overall framework](assets/overall_framework.png)
+
 ### Models
 
 Download the weights into `weights/`.
@@ -162,8 +164,7 @@ python trackeval/run_dsec_eval.py \
 | `ssm_tracker/cfgs/` | tracker and inference configs |
 | `tools/` | detection export and RoI feature extraction |
 | `trackeval/` | wrappers around official TrackEval |
-| `paper/` | manuscript sources |
 
 ## Citation
 
-If you use this code, please cite the HMamba-eMOT paper. The manuscript source is in `paper/`.
+If you use this code, please cite the HMamba-eMOT paper.
