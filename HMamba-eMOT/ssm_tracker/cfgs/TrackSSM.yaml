@@ -1,0 +1,36 @@
+dataset:
+  anno_path: 'traj_anno_data/dancetrack.json'
+  window_size: 7
+  manner: 'bbox_and_diff'  # manner to process the bbox
+  skip_sample: 1  # 1 means continuous
+  scale_factor: 20  # the factor that scale the data and label for convergence
+  scale_factor_diff: 50
+
+
+train:
+  model: 'TrackSSM'
+  batch_size: 128
+  optimizer: 'sgd'  # adam, sgd  
+  lr0: 0.0  # initial learning rate
+  lr_scheduler: 'transformer'  # transformer, linear, none, 
+  epochs: 100
+  cls_token: true  # whether use an extra token to represent the flow embedding
+  cls_token_pos: 'tail'  # head or tail
+  q: 5  # input traj. length, window_size = q + 2
+  d_m: 512  # flow features dim
+  d_d: 256  # bbox embedding dim
+  dt_rank: 'auto'  # dt embedding dim, if set to 'auto', d_d = ceil(d_m / 16) by default
+  d_state: 16  # hidden state dim in Mamba block
+  L: 3  # layer num of Flow Decoder Layer
+  lambda1: 1  # weight in loss func
+  lambda2: 0
+  save_period: 10
+  
+
+inference:
+  filter_thresh: 0.2  # threshold to filter detections
+  new_track_thresh: 0.6  # threshold to create new tracks
+  enable_time_thresh: 5  # the minimum length of historical observations that enable the mamba model, 
+  # in case the short history leads to bad results
+  max_window: 5  # max look-back temporal window
+  max_time_lost: 30  # max time to delete lost tracks

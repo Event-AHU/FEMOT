@@ -1,0 +1,39 @@
+dataset:
+  anno_path: 'traj_anno_data/dancetrack.json'
+  window_size: 12
+  manner: 'diff'  # manner to process the bbox
+  skip_sample: 1  # 1 means continuous
+  scale_factor: 50  # the factor that scale the data and label for convergence
+
+
+train:
+  model: 'MambaTrack'
+  batch_size: 64
+  optimizer: 'sgd'  # adam, sgd
+  lr0: 0.0  # initial learning rate
+  lr_scheduler: 'transformer'  # transformer, linear, none, 
+  epochs: 25
+  q: 10  # input traj. length, window_size = q + 2
+  d_m: 512  # project dim in Eq. 4
+  d_state: 16  # hidden state dim in Mamba block
+  use_hyper_b: false
+  hyper_d_vertex: 128
+  hyper_temperature: 1.0
+  hyper_mask_threshold: 0.1
+  L: 3  # layer num of Bi-Mamba block
+  avg_pool_out_dim: 
+    - 1
+    - 128
+  pred_head_dims:
+    - 64
+    - 4
+  save_period: 1
+  
+
+inference:
+  filter_thresh: 0.2  # threshold to filter detections
+  new_track_thresh: 0.6  # threshold to create new tracks
+  enable_time_thresh: 6  # the minimum length of historical observations that enable the mamba model, 
+  # in case the short history leads to bad results
+  max_window: 11  # max look-back temporal window
+  max_time_lost: 30  # max time to delete lost tracks

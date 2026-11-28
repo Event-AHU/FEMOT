@@ -1,0 +1,7 @@
+run,epoch,HOTA,DetA,AssA,IDF1,MOTA,IDSW,notes
+hyper_only,1,40.570,47.531,35.520,48.160,47.220,4328,freeze mamba train hyper only
+hyper_only,2,40.050,47.599,34.596,47.639,47.118,4397,
+hyper_only,3,41.224,47.517,36.669,49.547,47.412,4162,best among hyper_only
+best_clip,2,41.897,47.464,37.892,50.598,47.691,3976,
+best_diag,2,42.452,47.329,38.986,51.413,48.166,3587,
+lr5e5_g05_ep1_best_assoc,1,42.660,47.415,39.278,51.909,48.208,3696,historical peak

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.vscode/
+*.log
+
+# datasets, features, detections, and tracks
+data/
+det_results/
+weights/
+ssm_tracker/saved_ckpts/
+ssm_tracker/track_results/
+third_party/ByteTrack/YOLOX_outputs/
+trackeval/trackers/

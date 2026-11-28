@@ -1,0 +1,8 @@
+{
+  "checkpoint": "saved_ckpts/mambatrack_femot/epoch25.pth",
+  "spatial_hyper": false,
+  "elements": 58404,
+  "mae_scaled": 0.3619853713628193,
+  "rmse_scaled": 0.8424461047066651,
+  "mae_normalized": 0.007239707427256385
+}

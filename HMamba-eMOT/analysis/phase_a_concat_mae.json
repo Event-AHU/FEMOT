@@ -1,0 +1,8 @@
+{
+  "checkpoint": "saved_ckpts/mambatrack_femot_spatial_hyper_mvp/epoch3.pth",
+  "spatial_hyper": true,
+  "elements": 58404,
+  "mae_scaled": NaN,
+  "rmse_scaled": NaN,
+  "mae_normalized": NaN
+}

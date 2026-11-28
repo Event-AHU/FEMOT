@@ -1,0 +1,8 @@
+run,epoch,HOTA,DetA,AssA,IDF1,MOTA,notes
+hyper_only_lr5e4,1,41.376,47.448,36.979,49.857,47.315,
+hyper_only_lr5e4,4,40.745,47.579,35.806,48.379,47.508,
+hyper_only_lr5e4,8,40.947,47.622,36.096,49.06,47.601,
+hyper_only_lr5e4,9,40.715,47.546,35.744,48.443,47.219,
+hyper_only_lr5e4,10,41.869,47.499,37.815,50.591,47.628,best among lr5e4
+hyper_only_lr5e5,8,42.223,47.496,38.426,51.383,47.702,prev hyper_only peak
+lr5e5_g05_full,1,42.660,47.415,39.278,51.909,48.208,full finetune peak

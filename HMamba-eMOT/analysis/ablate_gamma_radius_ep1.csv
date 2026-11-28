@@ -1,0 +1,6 @@
+tag,gamma,radius,tracker,HOTA,IDF1,MOTA,AssA,DetA,MOTP,IDSW,IDs
+g05_ref,0.5,0.1,MambaTrack_assoc_sweep_s1070_nt055_mtl25,42.66,51.909,48.208,39.278,47.415,75.228,3696,2797
+r008,0.5,0.08,MambaTrack_spatial_hyper_r008_ep1,42.392,51.567,48.161,38.801,47.424,75.225,3778,2816
+g07,0.7,0.1,MambaTrack_spatial_hyper_g07_ep1,42.035,51.061,47.963,38.165,47.418,75.226,3794,2700
+r012,0.5,0.12,MambaTrack_spatial_hyper_r012_ep1,41.58,50.119,47.584,37.329,47.51,75.195,4029,2541
+g03,0.3,0.1,MambaTrack_spatial_hyper_g03_ep1,41.147,49.387,47.556,36.524,47.523,75.201,4038,2513

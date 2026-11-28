@@ -1,0 +1,8 @@
+run,epoch,HOTA,DetA,AssA,IDF1,MOTA,IDSW,notes
+best_clip,1,41.409,47.496,37.012,49.509,47.673,4021,label_clip=8 loss_skip=5 best_assoc
+best_clip,2,41.897,47.464,37.892,50.598,47.691,3976,best among clip epochs
+best_clip,3,41.690,47.424,37.567,50.207,47.913,3881,
+best_diag,1,41.746,47.531,37.601,50.666,47.602,4046,
+best_diag,2,42.452,47.329,38.986,51.413,48.166,3587,
+best_diag,3,42.232,47.436,38.515,51.157,47.85,3860,
+lr5e5_g05_ep1_best_assoc,1,42.660,47.415,39.278,51.909,48.208,3696,historical peak

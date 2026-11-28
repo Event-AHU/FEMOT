@@ -1,0 +1,50 @@
+{
+  "source_vsdx": "/home/lyt/.codex/attachments/1e84ad6a-612e-4b05-82c4-a1b403e9a488/overall_framework_revised.vsdx",
+  "source_sha256": "3ff2b7661e49565a0c0f6f50a31044b83288b74d4cd7581044825256ea53ae91",
+  "images": {
+    "rgb_input": {
+      "path": "/home/lyt/mymodel/Mamba_Trackers/docs/concept_framework_assets/rgb_input.jpeg",
+      "part": "visio/media/image3.jpeg",
+      "shape_id": "205",
+      "relationship": "rId4",
+      "sha256": "6f704bb0e5196d3e33971c4e6f25e4c2ebcf928661fef8e91e305a8baf384e90"
+    },
+    "event_input": {
+      "path": "/home/lyt/mymodel/Mamba_Trackers/docs/concept_framework_assets/event_input.jpeg",
+      "part": "visio/media/image1.jpeg",
+      "shape_id": "207",
+      "relationship": "rId2",
+      "sha256": "7b2ac5fa4ec72e5f4880da255a1b67f62acb47082ea1d451ce383605a83c0fb6"
+    },
+    "output_tracks": {
+      "path": "/home/lyt/mymodel/Mamba_Trackers/docs/concept_framework_assets/output_tracks.jpeg",
+      "part": "visio/media/image4.jpeg",
+      "shape_id": "206",
+      "relationship": "rId5",
+      "sha256": "1ffdfdb33a39cf208391c5aeeb6a8d3a26673762e331080e1ff317abb12f440a"
+    }
+  },
+  "schematic_elements": [
+    "feature stacks",
+    "track history",
+    "hypergraph",
+    "scan directions"
+  ],
+  "visio_validation": {
+    "path": "/home/lyt/mymodel/Mamba_Trackers/docs/overall_framework_concept.vsdx",
+    "pages": [
+      {
+        "name": "Concept overview",
+        "shapes": 81,
+        "texts": 19,
+        "connectors": 18,
+        "foreign": 3
+      }
+    ],
+    "shape_count": 81,
+    "text_count": 19,
+    "connector_count": 18,
+    "foreign_count": 3,
+    "valid": true
+  }
+}

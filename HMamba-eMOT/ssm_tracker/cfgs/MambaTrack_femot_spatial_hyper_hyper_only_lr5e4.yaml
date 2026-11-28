@@ -1,0 +1,59 @@
+# Freeze Mamba backbone; train only spatial-hyper modules.
+# From-scratch hyper_only with lr=5e-4 (10x previous 5e-5).
+# New save dir; does not overwrite hyper_only (lr5e-5) weights.
+dataset:
+  window_size: 12
+  manner: 'diff'
+  skip_sample: 1
+  scale_factor: 50
+  frame_hypergraph: true
+  modal_feature_root: '../data/femot_modal_gt'
+  max_objects: 32
+  sequence_cache_size: 100
+  hyper_spatial_radius: 0.10
+  hyper_rgb_threshold: 0.8407866
+  hyper_evt_threshold: 0.9955849
+  hyper_topk: 5
+
+train:
+  model: 'MambaTrack'
+  batch_size: 64
+  num_workers: 0
+  optimizer: 'adam'
+  lr0: 0.0005
+  lr_scheduler: 'none'
+  epochs: 20
+  grad_clip: 1.0
+  q: 10
+  d_m: 512
+  d_state: 16
+  L: 3
+  avg_pool_out_dim:
+    - 1
+    - 128
+  pred_head_dims:
+    - 64
+    - 4
+  save_period: 1
+  use_hyper_b: false
+  use_spatial_hyper: true
+  use_spatial_ssm_mod: false
+  spatial_hyper_dim: 64
+  spatial_hyper_gamma_init: 0.5
+  train_only_modules:
+    - spatial_hyper
+    - hyper_context_proj
+    - hyper_fusion
+  diag_every: 50
+  diag_loss_thresh: 1.0
+
+inference:
+  filter_thresh: 0.2
+  new_track_thresh: 0.55
+  enable_time_thresh: 6
+  max_window: 11
+  max_time_lost: 25
+  match_mode: iou
+  match_thresh_stage1: 0.7
+  match_thresh_stage2: 0.9
+  app_ema_momentum: 0.9

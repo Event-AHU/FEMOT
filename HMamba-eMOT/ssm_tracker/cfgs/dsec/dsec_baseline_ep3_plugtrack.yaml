@@ -1,0 +1,50 @@
+dataset:
+  anno_path: traj_anno_data/dsec.json
+  window_size: 12
+  manner: diff
+  skip_sample: 1
+  scale_factor: 50
+
+train:
+  model: MambaTrack
+  q: 10
+  d_m: 512
+  d_state: 16
+  L: 3
+  avg_pool_out_dim:
+  - 1
+  - 128
+  pred_head_dims:
+  - 64
+  - 4
+  epochs: 30
+  batch_size: 2048
+  mamba_batch_size: 64
+  optimizer: adam
+  lr0: 0.001
+  mamba_ckpt: /wangx_new/lyt/dsec_mamba/mambatrack_dsec_baseline/epoch3.pth
+  plugtrack_process_var: 1.0e-5
+  plugtrack_meas_var: 5.0e-4
+
+inference:
+  filter_thresh: 0.2
+  new_track_thresh: 0.6
+  enable_time_thresh: 6
+  max_window: 11
+  max_time_lost: 30
+  manner: diff
+  scale_factor: 50
+  q: 10
+  d_m: 512
+  d_state: 16
+  L: 3
+  avg_pool_out_dim:
+  - 1
+  - 128
+  pred_head_dims:
+  - 64
+  - 4
+  use_plugtrack: true
+  plugtrack_ckpt: /wangx_new/lyt/dsec_mamba/dsec_baseline_ep3_plugtrack/epoch30.pth
+  plugtrack_process_var: 1.0e-5
+  plugtrack_meas_var: 5.0e-4

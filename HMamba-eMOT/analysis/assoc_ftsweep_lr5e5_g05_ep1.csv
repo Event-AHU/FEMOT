@@ -1,0 +1,5 @@
+filter_thresh,tracker,HOTA,IDF1,MOTA,AssA,DetA,MOTP,IDSW,IDs
+0.2,MambaTrack_assoc_sweep_s1070_nt055_mtl25,42.66,51.909,48.208,39.278,47.415,75.228,3696,2797
+0.25,MambaTrack_assoc_ftsweep_s1070_nt055_mtl25_s2090_ft025,42.532,51.43,48.539,39.142,47.299,75.292,3642,2795
+0.15,MambaTrack_assoc_ftsweep_s1070_nt055_mtl25_s2090_ft015,42.443,51.651,47.271,38.921,47.425,75.154,3831,2833
+0.1,MambaTrack_assoc_ftsweep_s1070_nt055_mtl25_s2090_ft010,42.057,51.043,46.013,38.315,47.32,75.057,4014,2868

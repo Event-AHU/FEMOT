@@ -1,0 +1,1 @@
+python tools/gen_traj_data.py --visdrone --save_name visdrone

@@ -1,0 +1,8 @@
+run,epoch,HOTA,DetA,AssA,IDF1,MOTA,notes
+hyper_only,8,42.223,47.496,38.426,51.383,47.702,best overall hyper_only
+hyper_only,9,41.190,47.508,36.641,49.577,47.443,
+hyper_only,14,41.870,47.434,37.903,50.451,47.619,best among ep9-18
+hyper_only,16,41.752,47.508,37.599,50.441,47.590,val best
+hyper_only,17,41.742,47.461,37.621,50.406,47.500,
+hyper_only,18,41.554,47.533,37.241,50.131,47.414,
+lr5e5_g05_ep1,1,42.660,47.415,39.278,51.909,48.208,full finetune peak
